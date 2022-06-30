@@ -15,7 +15,7 @@ export default function Posts ({ posts }) {
   return (
     <Main>
     <article>
-    <h2>Posts list</h2>
+    <h3>Posts list</h3>
 
 <ol>
   {posts.map(({ id, title }) => (
@@ -26,13 +26,18 @@ export default function Posts ({ posts }) {
     </li>
   ))}
 </ol>
+
     </article>
+
+    
     </Main>
+    
+    
   )
 }
 
+
 export async function getServerSideProps () {
-  console.log('getServerSideProps')
   const url = 'https://jsonplaceholder.typicode.com/posts'
 
   const response = await fetch(url)
