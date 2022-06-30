@@ -2,7 +2,8 @@ import Main from "../layout/Main";
 export default function users() {
   return (
   <Main>
-    <div>users</div>
+    <article>    <div>users</div></article>
+
     </Main>
   )
 }
