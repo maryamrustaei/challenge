@@ -10,13 +10,18 @@ export default function Menu () {
           </Link>
         </li>
         <li>
-          <Link href='/posts'>
-            <a>Posts</a>
+          <Link href='/contact'>
+            <a>Contact</a>
           </Link>
         </li>
         <li>
-          <Link href='/users'>
-            <a>Users</a>
+          <Link href='/about'>
+            <a>About us</a>
+          </Link>
+          </li>
+          <li>
+          <Link href='/user'>
+            <a>user</a>
           </Link>
         </li>
       </ul>
