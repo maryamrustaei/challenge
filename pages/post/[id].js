@@ -16,6 +16,8 @@ export default function Post ({ post }) {
   )
 }
 
+
+
 export async function getServerSideProps ({ params: { id } }) {
   const url = `https://jsonplaceholder.typicode.com/posts/${id}`
   const { data: post } = await axios(url)
