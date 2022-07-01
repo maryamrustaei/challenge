@@ -10,11 +10,9 @@ export default function Contact() {
         <meta name="description" content="Challeng front-end"></meta>
       </Head> */}
       <article>
-    <h3>Contact</h3>
-    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-
-          </p>
-          </article>
+            <h3>Contact</h3>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        </article>
     </Main>
 
 

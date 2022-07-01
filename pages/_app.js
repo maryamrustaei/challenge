@@ -9,7 +9,7 @@ export default function MyApp ({ Component, pageProps }) {
         <title>Challeng front-end</title>
         <meta name="description" content="Challeng front-end"></meta>
         </Head>
-     <Component {...pageProps} />
+        <Component {...pageProps} />
      </>
      )
   }

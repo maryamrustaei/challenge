@@ -5,18 +5,18 @@ import Main from '../../layout/Main'
 export default function Users ({ users }) {
   return (
     <Main>
-  <article>
-    <h3>Users List</h3>
-      <ol>
-        {users.map(user => (
-          <Link key={user.id} href={`/user/${user.id}`}>
-            <a>
-              <li> {user.name}</li>
-            </a>
-          </Link>
-        ))}
-      </ol>
-  </article>
+        <article>
+          <h3>Users List</h3>
+            <ol>
+              {users.map(user => (
+                <Link key={user.id} href={`/user/${user.id}`}>
+                  <a>
+                    <li> {user.name}</li>
+                  </a>
+                </Link>
+              ))}
+            </ol>
+        </article>
     </Main>
   )
 }
